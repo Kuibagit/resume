@@ -103,7 +103,7 @@ export const CONTENT_OF_MODULE = ({ i18n }) => {
       {
         type: 'input',
         attributeId: 'github',
-        displayName: i18n.get('Github'),
+        displayName: i18n.get('Github/Blog'),
         cfg: {
           placeholder: 'Please input your github account, optional',
         },
@@ -173,6 +173,12 @@ export const CONTENT_OF_MODULE = ({ i18n }) => {
         type: 'textArea',
         attributeId: 'project_desc',
         displayName: i18n.get('项目描述'),
+        cfg: { autoSize: { minRows: 8 }, showCount: true },
+      },
+      {
+        type: 'textArea',
+        attributeId: 'project_content',
+        displayName: i18n.get('主要工作'),
         cfg: { autoSize: { minRows: 8 }, showCount: true },
       },
     ],
