@@ -1,3 +1,9 @@
+##  说明
+原项目 visiky
+https://github.com/visiky/resume.git
+
+备份，自用。
+
 ## 🧾 Resume Generator
 
 在线简历生成器。无须 fork 仓库，即可在线预览、编辑和下载 PDF 简历。✨ [在线编辑](https://visiky.github.io/resume)
