@@ -6,7 +6,7 @@ import { customAssign } from "./customAssign";
 export function fetchResume(lang: string, branch: string, user: string): Promise<ResumeConfig> {
 
   return fetch(
-    `https://raw.githubusercontent.com/${user}/${user}/${branch}/resume.json`
+    `https://raw.githubusercontent.com/Kuibagit/resume/master/resume_info.json`
   )
     .then(data => {
       if (data.status !== 200) {
